@@ -3,7 +3,10 @@ openai>=1.0.0
 tiktoken>=0.5.0
 # Optional: for vector stores in RAG examples
 # faiss-cpu>=1.7.4
+langchain-community>=0.0.10
+langchain-openai>=0.0.5
 fastapi>=0.100.0
 uvicorn>=0.23.0
 aiofiles>=23.0.0
+python-dotenv>=1.0.0
 

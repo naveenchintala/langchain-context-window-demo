@@ -99,6 +99,44 @@ The programs will demonstrate:
 - Processing strategies
 - Code examples for RAG workflows
 
+## Setting Up GitHub Repository
+
+This repository is ready to be pushed to GitHub. You have several options:
+
+### Option 1: Use the Helper Script (Recommended)
+
+Run the Python helper script:
+```bash
+python3 create_github_repo.py
+```
+
+Or use the bash script:
+```bash
+./setup_github_repo.sh
+```
+
+### Option 2: Use GitHub CLI
+
+If you have GitHub CLI installed:
+```bash
+gh repo create langchain-context-window-demo --public --description "Demonstration of context window problem in LLMs using LangChain" --source=. --remote=origin --push
+```
+
+### Option 3: Manual Setup
+
+1. Go to [GitHub New Repository](https://github.com/new)
+2. Repository name: `langchain-context-window-demo`
+3. Description: "Demonstration of context window problem in LLMs using LangChain"
+4. Choose public/private
+5. **Don't** initialize with README (we already have one)
+6. Click "Create repository"
+7. Then run:
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/langchain-context-window-demo.git
+git branch -M main
+git push -u origin main
+```
+
 ## Notes
 
 - The basic demo works without an API key

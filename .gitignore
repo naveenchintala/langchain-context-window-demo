@@ -55,3 +55,4 @@ Thumbs.db
 chroma_db/
 vectorstore/
 
+node_runtime/

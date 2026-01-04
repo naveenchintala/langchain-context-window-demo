@@ -1,3 +1,4 @@
+// Author: Naveen Chintala
 import React, { useState } from 'react';
 import TokenCounter from './components/TokenCounter';
 import TextSplitter from './components/TextSplitter';

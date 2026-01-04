@@ -1,4 +1,5 @@
 #!/bin/bash
+# Author: Naveen Chintala
 
 # Script to create GitHub repository and push code
 # Usage: ./setup_github_repo.sh <repo-name> [description]

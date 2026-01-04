@@ -1,3 +1,4 @@
+// Author: Naveen Chintala
 import React, { useState, useEffect } from 'react';
 import { Calculator, CheckCircle, AlertTriangle } from 'lucide-react';
 

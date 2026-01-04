@@ -1,3 +1,4 @@
+// Author: Naveen Chintala
 import React, { useState } from 'react';
 import { Cpu, Play, Loader2 } from 'lucide-react';
 

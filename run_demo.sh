@@ -1,4 +1,5 @@
 #!/bin/bash
+# Author: Naveen Chintala
 
 # Setup environment
 echo "Setting up Python environment..."

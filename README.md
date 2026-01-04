@@ -61,6 +61,25 @@ This includes:
 - Token usage tracking
 - Complete RAG workflow code examples
 
+### Web Interface Demo
+
+A modern React-based UI is available to interact with the demo.
+
+1. **Start the Backend Server**:
+   ```bash
+   python3 server.py
+   ```
+   The API will run at `http://localhost:8000`.
+
+2. **Start the Frontend**:
+   Open a new terminal window:
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
+   The UI will be available at `http://localhost:5173`.
+
 ## What is the Context Window Problem?
 
 The context window is the maximum number of tokens (words/subwords) that an LLM can process in a single request. When a document exceeds this limit:
